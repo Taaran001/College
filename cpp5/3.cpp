@@ -1,3 +1,5 @@
+// Program 3: To implement the Fractional Knapsack Problem using the Greedy Algorithm in C++ to maximize the total profit by selecting items based on their profit-to-weight ratio.
+
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -15,6 +17,9 @@ bool compare(Item a, Item b) {
 int main() {
     int n, capacity;
 
+    cout << "Name - Taaran\n";
+    cout << "Roll No. - 27481\n";
+
     cout << "Enter number of items: ";
     cin >> n;
 
@@ -30,6 +35,7 @@ int main() {
     cout << "Enter knapsack capacity: ";
     cin >> capacity;
 
+    // Sort according to profit/weight ratio
     sort(item, item + n, compare);
 
     double maxProfit = 0;
@@ -37,10 +43,12 @@ int main() {
     for (int i = 0; i < n; i++) {
 
         if (capacity >= item[i].weight) {
+            // Take complete item
             capacity = capacity - item[i].weight;
             maxProfit = maxProfit + item[i].profit;
         }
         else {
+            // Take fraction of item
             maxProfit = maxProfit +
                         item[i].ratio * capacity;
             capacity = 0;
