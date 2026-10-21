@@ -17,8 +17,8 @@ bool compare(Item a, Item b) {
 int main() {
     int n, capacity;
 
-    cout << "Name - Taaran\n";
-    cout << "Roll No. - 27481\n";
+    cout << "Name - Tanisha\n";
+    cout << "Roll No. - 27482\n";
 
     cout << "Enter number of items: ";
     cin >> n;

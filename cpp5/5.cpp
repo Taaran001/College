@@ -8,8 +8,8 @@ using namespace std;
 
 int main()
 {
-    cout << "Name - Taaran\n";
-    cout << "Roll No. - 27481\n";
+    cout << "Name - Tanisha\n";
+    cout << "Roll No. - 27482\n";
 
     int n = 5;
 

@@ -35,8 +35,8 @@ void quickSort(int a[], int lb, int ub)
 
 int main()
 {
-    cout << "Name - Taaran\n";
-    cout << "Roll No. - 27481\n";
+    cout << "Name - Tanisha\n";
+    cout << "Roll No. - 27482\n";
 
     int n;
     cout << "Enter number of elements: ";

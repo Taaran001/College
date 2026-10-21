@@ -39,8 +39,8 @@ void mergeSort(int a[], int lb, int ub)
 
 int main()
 {
-    cout << "Name - Taaran\n";
-    cout << "Roll No. - 27481\n";
+    cout << "Name - Tanisha\n";
+    cout << "Roll No. - 27482\n";
 
     int n;
     cout << "Enter number of elements: ";
@@ -48,7 +48,7 @@ int main()
 
     int a[100];
 
-    cout << "Enter elements: ";
+    cout << "Enter elements: "; 
     for (int i = 0; i < n; i++)
         cin >> a[i];
 
